@@ -1,12 +1,12 @@
 # Description: Environnement graphique très léger basé sur gtk version 2
 # URL: http://lxde.org
 # Maintainer: Christoph Wickert cwickert at fedoraproject dot org
-# Packager: geantbrun at gmail dot com
-# Depends on: xorg openbox wicd pcmanfm obconf sylpheed gnome-icon-theme lxde-terminal lxde-task lxde-session lxde-input lxde-randr lxde-panel lxde-common lxde-appearance lxde-appearance-obconf lxde-launcher menu-cache alsa-utils dbus-glib leafpad shared-mime-info startup-notification lxde-gpicview hicolor-icon-theme lxde-menu-data lxdm
-run=(xorg openbox wicd pcmanfm obconf sylpheed gnome-icon-theme lxde-terminal lxde-task lxde-session lxde-input lxde-randr lxde-panel lxde-common lxde-appearance lxde-appearance-obconf lxde-launcher menu-cache alsa-utils dbus-glib leafpad shared-mime-info startup-notification lxde-gpicview hicolor-icon-theme lxde-menu-data lxdm)
+# Packager: geantbrun at gmail dot com, tnut at nutyx dot org
+# Depends on: libfm libfm-extra lxde-appearance lxde-common lxde-icon-theme lxde-menu-data lxde-panel lxde-session menu-cache pcmanfm
+run=( libfm libfm-extra lxde-appearance lxde-common lxde-icon-theme lxde-menu-data lxde-panel lxde-session menu-cache pcmanfm )
 name=lxde
 version=0.99.0
-release=1
+release=2
 source=(lxde.desktop)
 
 build() {
