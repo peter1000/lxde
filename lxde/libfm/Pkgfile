@@ -1,11 +1,12 @@
 # Description: Library for file management
 # URL: http://pcmanfm.sourceforge.net/
 # Packager: geantbrun at gmail dot com
-# Depends on: udisks shared-mime-info xorg-libxinerama xorg-libxrandr xorg-libxdamage gtk menu-cache dbus-glib desktop-file-utils vala 
+# Depends on: udisks shared-mime-info xorg-libxinerama xorg-libxrandr xorg-libxdamage gtk2 menu-cache dbus-glib desktop-file-utils vala 
 
 name=libfm
 version=1.2.3
-release=2
+release=3
+
 source=(http://downloads.sourceforge.net/pcmanfm/${name}-$version.tar.xz)
 
 build() {
