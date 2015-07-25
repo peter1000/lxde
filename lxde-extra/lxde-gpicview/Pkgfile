@@ -2,7 +2,7 @@
 # URL: http://lxde.org/
 # Maintainer: Martin Bagge
 # Packager: geantbrun at gmail dot com
-# Depends on: gtk
+# Depends on: gtk2
 
 name=lxde-gpicview
 _name=gpicview
