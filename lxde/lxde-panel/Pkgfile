@@ -3,12 +3,12 @@
 # Maintainer: Martin Bagge  brother at bsnet dot se
 # Maintainer: NuTyX core team
 # Packager: geantbrun at gmail dot com
-# Depends on: gtk, menu-cache, alsa-lib, libwnck,wireless-tools,keybinder2,libfm
+# Depends on: gtk2, menu-cache, alsa-lib, libwnck,wireless-tools,keybinder2,libfm
 
 name=lxde-panel
 _name=lxpanel
 version=0.8.1
-release=1
+release=2
 
 source=(http://downloads.sourceforge.net/lxde/files/${_name}-$version.tar.xz)
 
