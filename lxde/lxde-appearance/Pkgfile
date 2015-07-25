@@ -2,13 +2,13 @@
 # URL: http://lxde.org/
 # Maintainer: brother@bsnet.se
 # Packager: geantbrun at gmail dot com
-# Depends on: gtk,intltool
+# Depends on: gtk2 intltool
 
 
 name=lxde-appearance
 _name=lxappearance
 version=0.6.1
-release=1
+release=2
 
 source=(http://downloads.sourceforge.net/lxde/files/${_name}-$version.tar.xz)
 
