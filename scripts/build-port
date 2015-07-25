@@ -84,16 +84,19 @@ list_diff()
 }
 COLLECTION="`basename $0`"
 
+GIT=`pwd`
+
 if [ ! -d "$COLLECTION" ]; then
    echo "I dont know the collection $COLLECTION"
    echo "Make shure you are at the root of the git"
+   echo "Your are in: $GIT"
    exit 1
 fi
 
 if [ ! -f /etc/cards.conf.d/$COLLECTION.conf ] ; then
 	echo "Create $COLLECTION.conf file"
 	[ ! -d /etc/cards.conf.d ] && mkdir -p /etc/cards.conf.d
-	echo "PORT_BASE=/root/$COLLECTION
+	echo "PORT_BASE=/$GIT/$COLLECTION
 BINARY_BASE=/houaphan/$COLLECTION" > /etc/cards.conf.d/$COLLECTION.conf
 fi
 
@@ -126,9 +129,4 @@ ${BINARY_BASE}/$1/
 
 chown -R 0:0 ${BINARY_BASE}/$1/
 
-if [ "$COLLECTION" == "base" ]; then
-	cd ${BINARY_BASE}/$1/
-	pkgmk -d -i || pkgmk -d -u
-else
-	cards create -r $1
-fi
+cards create -r $1
