@@ -93,7 +93,7 @@ fi
 if [ ! -f /etc/cards.conf.d/$COLLECTION.conf ] ; then
 	echo "Create $COLLECTION.conf file"
 	[ ! -d /etc/cards.conf.d ] && mkdir -p /etc/cards.conf.d
-	echo "PORT_BASE=/root/houaphan/$COLLECTION
+	echo "PORT_BASE=/root/$COLLECTION
 BINARY_BASE=/houaphan/$COLLECTION" > /etc/cards.conf.d/$COLLECTION.conf
 fi
 
