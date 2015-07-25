@@ -2,7 +2,7 @@
 # Url: http://wiki.lxde.org/en/LXDM
 # Maintainer: dgod dot osa at gmail dot com
 # Packager: tnut at nutyx dot org
-# Depends on: xorg-libxinerama xorg-libxrandr xorg-libxcursor xorg-libxdamage gtk consolekit
+# Depends on: xorg-libxinerama xorg-libxrandr xorg-libxcursor xorg-libxdamage gtk2 consolekit
 run=(consolekit)
 
 name=lxdm
