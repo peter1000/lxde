@@ -83,7 +83,7 @@ It will explain you what's a collection, a git, a port, the tools around 'cards'
 
  then you are ready to compile the 'lxde-extra' collection
 
-    # cd /root/lxde-extra
+    # cd /root/lxde
     # bash scripts/lxde-extra -s
     # bash scripts/lxde-extra -a 
 
