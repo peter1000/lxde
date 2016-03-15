@@ -1,13 +1,13 @@
-# Description: Le paquet LXDE Common fournit une suite de configuration par défaut pour LXDE. 
 # URL: http://lxde.org/about.html
 # Maintainer: Copyright (C) 2001 Owen Taylor, Matthias Clasen, Red Hat, Inc.
-# Packager: geantbrun at gmail dot com
+# Packager: geantbrun at gmail dot com, tnut at nutyx dot org
 # Depends on: consolekit2,desktop-file-utils,gtk2,hicolor-icon-theme,lxde-icon-theme,lxde-panel,lxde-session,openbox,pcmanfm,shared-mime-info
 
-run=(consolekit2 lxde-icon-theme lxde-panel lxde-session openbox pcmanfm)
+description="provides a set of default configuration for LXDE"
+run=(consolekit2 lxde-icon-theme menu-cache lxde-menu-data lxde-panel lxde-session openbox pcmanfm )
 name=lxde-common
-version=0.99.0
-release=5
+version=0.99.1
+release=1
 
 source=(http://downloads.sourceforge.net/lxde/$name-$version.tar.xz
 	http://nutyx.meticul.eu/files/patchs/oxygen-icons/icon-sekong.png
