@@ -9,7 +9,7 @@ _name=lxappearance
 version=0.6.2
 release=1
 
-source=(http://downloads.sourceforge.net/lxde/files/${_name}-$version.tar.xz)
+source=(http://ufpr.dl.sourceforge.net/project/lxde/LXAppearance/${_name}-$version.tar.xz)
 
 
 build() {
